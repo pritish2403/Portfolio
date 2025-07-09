@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+🚀 Personal Portfolio Deployment Guide
+🔗 Live URL
+Your portfolio is live at:
+👉 
 
-## Project info
+✨ Tech Stack Used
+React (via Vite)
 
-**URL**: https://lovable.dev/projects/926752cd-2e42-420b-8dfb-457edeffd217
+TypeScript
 
-## How can I edit this code?
+Tailwind CSS
 
-There are several ways of editing your application.
+shadcn/ui
 
-**Use Lovable**
+Framer Motion
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/926752cd-2e42-420b-8dfb-457edeffd217) and start prompting.
+Lucide Icons
 
-Changes made via Lovable will be committed automatically to this repo.
+Deployed with Vercel
 
-**Use your preferred IDE**
+🛠️ How to Edit Your Portfolio
+You can update your portfolio anytime using your own IDE (VS Code or any):
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+1️⃣ Clone the Project from GitHub
+bash
+Copy
+Edit
+git clone <your_git_repo_url>
+cd <your_project_name>
+2️⃣ Install Dependencies
+bash
+Copy
+Edit
+npm install
+3️⃣ Run It Locally
+bash
+Copy
+Edit
 npm run dev
-```
+Now open http://localhost:5173 to preview the site locally.
 
-**Edit a file directly in GitHub**
+🔁 How to Push Changes and Update Live Site
+After editing:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Commit your changes:
+git add .
+git commit -m "Update: Changed About section and colors"
+git push
+Vercel will auto-deploy your changes — no extra steps needed.
 
-**Use GitHub Codespaces**
+If you're using GitHub + Vercel, Vercel listens for every push to main (or whichever branch you connected) and rebuilds your site automatically.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+🌐 Custom Domain (Optional)
+To connect your domain on Vercel:
 
-## What technologies are used for this project?
+Go to vercel.com
 
-This project is built with:
+Select your project
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Go to Settings → Domains
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/926752cd-2e42-420b-8dfb-457edeffd217) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Click "Add" to connect a custom domain
