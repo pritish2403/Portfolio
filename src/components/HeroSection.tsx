@@ -27,19 +27,26 @@ export const HeroSection = ({ scrollToSection }: HeroSectionProps) => {
       <div className="container mx-auto px-6 text-center relative z-10">
         {/* Profile Image with Enhanced Design */}
         <div className="mb-8">
-          <div className="relative w-40 h-40 mx-auto mb-8">
-            {/* Outer ring with gradient */}
-            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-400 via-purple-500 to-cyan-400 p-1 animate-pulse">
-              <div className="w-full h-full rounded-full bg-gray-800 p-2">
+          <div className="relative w-48 h-48 mx-auto mb-10">
+            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-cyan-400 p-[3px]">
+              <div className="w-full h-full rounded-full bg-gray-900 p-[6px]">
                 <img
-                  src="https://res.cloudinary.com/dszxnwtiy/image/upload/v1751694823/IMG_0558_jztlbt.jpg"
+                  src="https://res.cloudinary.com/dszxnwtiy/image/upload/f_auto,q_auto,w_400,h_400,c_fill,g_face/v1752384788/Img_kege8t.jpg"
+                  srcSet="
+          https://res.cloudinary.com/dszxnwtiy/image/upload/f_auto,q_auto,w_400,h_400,c_fill,g_face/v1752384788/Img_kege8t.jpg 1x,
+          https://res.cloudinary.com/dszxnwtiy/image/upload/f_auto,q_auto,w_800,h_800,c_fill,g_face/v1752384788/Img_kege8t.jpg 2x
+        "
                   alt="Pritish Divate"
-                  className="w-full h-full rounded-full object-cover"
+                  width={192}
+                  height={192}
+                  className="w-full h-full rounded-full object-cover border border-gray-800"
+                  style={{
+                    imageRendering: "auto",
+                  }}
                 />
               </div>
             </div>
           </div>
-
           {/* Enhanced Typography */}
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 animate-fade-in">
@@ -100,7 +107,6 @@ export const HeroSection = ({ scrollToSection }: HeroSectionProps) => {
             target="_blank"
             rel="noopener noreferrer"
             title="Visit LinkedIn"
-
             className="group p-4 rounded-full bg-gray-800/50 border border-gray-600 hover:border-blue-400 transition-all duration-300 hover:scale-110 hover:bg-blue-600 backdrop-blur-sm hover:shadow-lg hover:shadow-blue-500/20"
           >
             <Linkedin

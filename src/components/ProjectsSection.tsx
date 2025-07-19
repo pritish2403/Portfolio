@@ -35,27 +35,6 @@ export const ProjectsSection = () => {
       demo: "",
     },
     {
-      title: "AWS Project",
-      description: "AWS Project",
-      tech: ["First", "Second", "third", "Fourth"],
-      github: "",
-      demo: "",
-    },
-    {
-      title: "2nd Mobile App",
-      description: "2nd Mobile App",
-      tech: ["First", "Second", "third", "Fourth"],
-      github: "",
-      demo: "",
-    },
-    {
-      title: "2nd Web App",
-      description: "2nd Web App",
-      tech: ["First", "Second", "third", "Fourth"],
-      github: "",
-      demo: "",
-    },
-    {
       title: "Color-Blindness Assistance Extension",
       description:
         "A Chrome extension aimed at enhancing web accessibility for individuals with color vision deficiencies. It applies customizable visual filters and displays color names on hover to improve readability and perception.",
